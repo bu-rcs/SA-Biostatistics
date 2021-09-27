@@ -12,3 +12,5 @@ This folder currently contains following code:
 
 - qsub_arrayjob.sh
 
+
+Please check the wiki page to see more description.

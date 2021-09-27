@@ -10,7 +10,7 @@ It currently contains following code:
 
 - examples/R/qsub_regular.sh
 
-3) An example of running array job using R
+2) An example of running array job using R
 
 - examples/R/Rcode_arrayjob.R
 

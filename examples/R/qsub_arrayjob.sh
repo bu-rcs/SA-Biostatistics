@@ -4,7 +4,7 @@
 #$ -P projectname
 
 # Submit an array job
-#$ -t 1-10
+#$ -t 1-5
 
 # Give this job a name
 #$ -N jobname
@@ -34,8 +34,8 @@ echo "=========================================================="
 
 module load R
 
-# Here SGE_TASK_ID refers to the arrays you specified at line 7, which will be from 1 to 10, so this job will have 10 array jobs submitted simultaneously
-R --vanilla --snpnumber=${SGE_TASK_ID} < Rcode_arrayjob.R
+# Here SGE_TASK_ID refers to the arrays you specified at line 7, which will be from 1 to 5, so this job will have 10 array jobs submitted simultaneously
+R --vanilla --i=${SGE_TASK_ID} < Rcode_arrayjob.R
 
 echo "=========================================================="
 echo "Finished on       : $(date)"

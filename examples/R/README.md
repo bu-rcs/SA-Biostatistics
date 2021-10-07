@@ -13,4 +13,4 @@ This folder currently contains following code:
 - qsub_arrayjob.sh
 
 
-Please check the wiki page (section 2.3 Running Batch Job) to see more description.
+Please check the wiki page (Section 2.3 Running Batch Jobs) to see more description.

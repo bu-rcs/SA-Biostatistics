@@ -18,5 +18,12 @@ It currently contains following code:
 
 Please check the wiki page to see more description.
 
+3) An example of running Rmarkdown code
+
+- examples/Rmarkdown/sample.Rmd
+
+- examples/Rmarkdown/qsub_rmd.sh
+
+
 
 You can check more example code for different softwares at http://rcs.bu.edu/examples/

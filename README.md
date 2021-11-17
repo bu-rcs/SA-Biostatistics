@@ -16,7 +16,7 @@ It currently contains following code:
 
 - examples/R/qsub_arrayjob.sh
 
-Please check the wiki page to see more description.
+
 
 3) An example of running Rmarkdown code
 
@@ -25,5 +25,6 @@ Please check the wiki page to see more description.
 - examples/Rmarkdown/qsub_rmd.sh
 
 
+Please check the wiki page to see more description.
 
 You can check more example code for different softwares at http://rcs.bu.edu/examples/

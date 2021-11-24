@@ -26,7 +26,7 @@
 #$ -m eas
 
 # Whom to send the email to, by default the email will be sent to person who submitted this job, specifing email below will overwrite the default
-#$ -M aaa@bu.edu
+#$ -M aa@bu.edu
 
 #Request 24 hours for the job, by default this will be 12 hours. Request more hours only if you need more hours, because the longer time you specify, the less nodes will be available for you.
 #$ -l h_rt=24:00:00

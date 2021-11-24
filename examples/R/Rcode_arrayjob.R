@@ -12,5 +12,5 @@ i <- cmdArg("i", 1L)
 summarystats<-summary(iris[,i])
 
 # write the summary statistics of each column to a separate file, indexed by column number
-write.csv(summarystats,file=paste0("iris_summarystats_",i,".csv"),quote=F,row.names=F)
+write.csv(as.array(summarystats),file=paste0("iris_summarystats_",i,".csv"),quote=F,row.names=F)
 

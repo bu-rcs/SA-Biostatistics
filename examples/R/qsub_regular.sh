@@ -13,8 +13,10 @@
 # To use buy-in nodes of the project
 #$ -l buyin
 
-# multiple slots
-#$ -pe omp 4
+# Request multiple cores (if needed by the job).
+# The extra ### comments out this line so this job will
+# default to 1 core
+### #$ -pe omp 4
 
 # Give this job a name
 #$ -N jobname
@@ -28,8 +30,10 @@
 # Whom to send the email to, by default the email will be sent to person who submitted this job, specifing email below will overwrite the default
 #$ -M aaa@bu.edu
 
-#Request 24 hours for the job, by default this will be 12 hours. Request more hours only if you need more hours, because the longer time you specify, the less nodes will be available for you.
-#$ -l h_rt=24:00:00
+# As an example of setting the time for the job set this job to 12 hours. This is the default
+# amount of time. Request more hours only if you need more hours as jobs >12 hours will wait longer
+# in the queue.
+#$ -l h_rt=12:00:00
 
 # Now let's keep track of some information just in case anything goes wrong
 

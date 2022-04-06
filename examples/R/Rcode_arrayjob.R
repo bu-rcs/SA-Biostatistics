@@ -7,6 +7,9 @@ str(args)
 # Retrieve command line argument 'n', e.g. '-chr 13' or '--chr=13'
 i <- cmdArg("i", 1L)
 
+# Alternatively, instead of a command line arg you could
+# read the task ID from the environment in R
+# i <- as.integer(Sys.getenv("SGE_TASK_ID"))
 
 # get summary statistics of the ith column of the iris dataset
 summarystats<-summary(iris[,i])

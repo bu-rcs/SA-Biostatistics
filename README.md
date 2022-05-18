@@ -24,6 +24,13 @@ It currently contains following code:
 
 - examples/Rmarkdown/qsub_rmd.sh
 
+4) An example of running parallel job using R
+- examples/R/example_parallel.R
+
+- examples/R/qsub_parallel.sh
+
+5) An example of random number generation in R
+- examples/R/example_RNG.R
 
 Please check the wiki page to see more description.
 
